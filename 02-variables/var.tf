@@ -19,14 +19,14 @@ variable "sample2" {
 }
 
 variable "sample3" {
-  default = True
+  default = true
 }
 
 variable "sample4" {
   default = [
-    "Hello",
+    "hello",
     100,
-    True,
+    true
   ]
 }
 
