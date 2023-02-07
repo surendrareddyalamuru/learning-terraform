@@ -53,12 +53,6 @@ output "sample6" {
 }
 
 
-variable "sample8" {}
-
-output "sample8" {
-  value = var.sample8
-}
-
 variable "sample9" {}
 
 output "sample9" {
