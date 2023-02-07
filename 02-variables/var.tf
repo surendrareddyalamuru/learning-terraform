@@ -47,3 +47,7 @@ output "sample5" {
 }
 
 variable "sample6" {}
+
+output "sample6" {
+  value = var.sample6
+}
