@@ -6,6 +6,6 @@ output "sample" {
   value = var.sample
 }
 
-output "sample" {
+output "sample1" {
   value = "Hey, ${var.sample}"
 }
