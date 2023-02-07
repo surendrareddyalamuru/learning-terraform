@@ -24,8 +24,8 @@ variable "sample3" {
 
 variable "sample4" {
   default = [
-    "Hello"
-    100
+    "Hello",
+    100,
     True
   ]
 }
