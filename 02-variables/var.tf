@@ -33,3 +33,15 @@ variable "sample4" {
 output "sample4" {
   value = var.sample4[0]
 }
+
+variable "sample5" {
+  default = {
+    string = "hello"
+    number = 1000
+    boolean = true
+  }
+}
+
+output "sample5" {
+  value = var.sample5
+}
