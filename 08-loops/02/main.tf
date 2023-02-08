@@ -4,7 +4,7 @@ resource "aws_instance" "sample" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "test-${count.index}"
+    Name = element(var.instances, count.index )
   }
 }
 
