@@ -9,11 +9,11 @@ output "sample" {
 variable "sample1" {
   default = {
     orange = {
-      Name = orange
+      name = orange
       count = 100
     }
     apple = {
-      Name = apple
+      name = apple
       count = 100
     }
   }
