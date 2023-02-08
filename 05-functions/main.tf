@@ -42,5 +42,21 @@ variable "map" {
 
 output "map" {
   value = [for k, v in var.map : "color code - ${k} | color - ${v}"]
+}
 
+variable "map1" {
+  default = {
+    c1 = {
+      color_code = "y"
+      color = "yellow"
+    }
+    c2 = {
+      color_code = "b"
+      color = "blue"
+    }
+  }
+}
+
+output "map1" {
+  value = [for k, v in var.map1 : "color code - ${v.color_code} | color - ${v.color}"]
 }
