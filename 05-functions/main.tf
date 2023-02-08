@@ -6,7 +6,7 @@ output "sample" {
   value = element(var.sample, 0)
 }
 
-varible "sample1" {
+variable "sample1" {
   default = {
     orange = {
       Name = orange
