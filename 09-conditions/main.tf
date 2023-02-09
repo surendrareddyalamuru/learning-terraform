@@ -14,7 +14,7 @@ resource "aws_instance" "sample" {
       host     = self.public_ip
     }
     inline = [
-      "yum install nginx -y"
+      "yum install nginx -y",
       "systemctl start nginx"
     ]
   }
